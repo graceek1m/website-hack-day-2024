@@ -5,14 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
+
   <body>
+    <div class = "nav">
+      <nav class = "navBar">
+        <div class = "header">
+          <label>
+            Grace
+          </label>
+        </div>
+        <li><a class = "homeHeader" href = "#intro">Home</a>
+        </li>
+        <li><a href = "#aboutMe">About</a></li>
+        <li><a href = "#portfolio">Portfolio</a></li>
+      </nav>
+    </div>
+
     <main>
-        <h1>Welcome to My Website</h1> 
-        <p>This is a paragraph</p>
+      <div class = "top"></div>
+      <div class = "Introduction"></div>
+      <h2> Hello! I'm Grace Kim</h2>
+        <p id = "intro">B.S. in Computer Science and Cognitive Psychology</p>
+      <div class = "about"></div>
+      <h2> About me!</h2>
+      <p id = "aboutMe">Hello! I'm Grace and I'm currently a first-year at Northeastern University studying 
+        Computer Science and Cognitive Psychology. 
+      </p>
+      <div class = "portf"></div>
+      <h2> My Projects!</h2>
+      <p id = "portfolio">Any personal project I have worked on!</p>
+      <h3> Data Analysis of MTA Stop</h3>
+      <div class = "data">
+        <img class = "dataMTA" src = "C:\Users\kimgr\Downloads\dataMTA.png">
+        <p>Data visualization and data analysis of the trend in the amount of subway rides throughout one week on the 103st’s subway using Pandas and Matplotlib. </p>
+      </div>
     </main>
 	<script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
